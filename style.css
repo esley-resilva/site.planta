@@ -1,0 +1,52 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    text-align: justify;
+    
+}
+
+#form-cadastro{
+    border-radius: 30px;
+    margin-top: 10%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-left: 32%;
+    gap: 30px;
+    padding: 10px;
+    width: 500px;
+    text-align: justify;
+    
+
+}
+#form-cadastro .linha{
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #98cb6d;
+    
+    
+}
+div{
+    
+    border: 2px solid;
+    border-radius: 30px;
+    box-shadow: 10px 5px 3px #396b10;
+    padding: 3px;
+    text-align: left;
+    justify-content: space-between;
+}
+#form-cadastro :hover{
+    background-color: #396b10;
+    color: #fff;
+    
+
+}
+.linha input{
+    font-size: 20px;
+    background-color: #5c7d2b;
+    border-radius: 20px;
+}
